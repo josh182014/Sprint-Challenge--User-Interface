@@ -300,6 +300,8 @@ footer nav a {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about {
@@ -345,4 +347,43 @@ footer nav a {
 .workTogether {
     margin: 10px;
     margin-bottom: 30px;
+}
+
+.aboutForm {
+    width: 48%;
+    margin: 5px;
+    align-self: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+.submitButton {
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border-color: black;
+    width: 40%;
+    height: 38px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.contactBox {
+    width: 48%;
+    margin: 5px;
+    align-self: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
