@@ -312,3 +312,37 @@ footer nav a {
     border-bottom: 1px dashed black;
 
 }
+
+.learnMoreButton {
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border-color: black;
+    width: 33%;
+    height: 38px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.navigation a:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+
+.workTogether {
+    margin: 10px;
+    margin-bottom: 30px;
+}
