@@ -144,3 +144,248 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.header-img {
+    width: 100%;
+    align-self: center;
+}
+
+.navigation {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    margin-left: 80px;
+    align-self: center;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutBox {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 5px;
+    align-self: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-self: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.learnMoreButton {
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border-color: black;
+    width: 33%;
+    height: 38px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.navigation a:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+}
+
+.workTogether {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.aboutForm {
+    width: 30%;
+    margin: 5px;
+    align-self: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+}
+
+.submitButton {
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border-color: black;
+    width: 40%;
+    height: 38px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.contactBox {
+    width: 48%;
+    margin: 5px;
+    align-self: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
